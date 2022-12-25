@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>쿼카의 버켓리스트</title>
+    <style>
+        @font-face {
+            font-family: 'BMJUA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'BMJUA';
+        }
+        html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .title {
+            color: white;
+            background-color: darkturquoise;
+            font-size: 30px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin: 10px 20px;
+        }
+        .bg {
+            width: 360px;
+            background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+            /*background-image: url("https://www.godpeople.com/img/cnts/thumb/8358/8358_5626776.png");*/
+            background-size: cover;
+            background-position: center;
+        }
+        .msg {
+            font-weight: bold;
+            font-size: 30px;
+            margin: 10px 20px;
+        }
+        .bucket {
+            color: whitesmoke;
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            word-break: keep-all;
+        }
+        .img1 {
+            background-image: url("https://blog.kakaocdn.net/dn/AFzsZ/btqI088tZW3/HCqq10x0OG9SoMdG2Bo3YK/img.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .img2 {
+            background-image: url("https://cdn.imweb.me/upload/S201806045b14e127704de/83281fc6c7a86.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 8px;
+        }
+        .wrap {
+            flex-wrap: wrap;
+        }
+        .done::after {
+            content: "";
+            width: 70%;
+            height: 70%;
+            background-image: url("https://mblogthumb-phinf.pstatic.net/20160122_208/pinkgroove_1453435320960Eo7Rx_PNG/%C2%FC%C0%DF%C7%DF%BE%EE%BF%E407.png?type=w2");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 20%;
+        }
+    </style>
+<!--    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">-->
+</head>
+<body class="bg center">
+    <h1 class="title">쿼카와 함께하는 신년계획</h1>
+    <p class="msg">🌅 2023년 목표</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1 center">바디 프로필 찍기1</div>
+        <div class="bucket img2 center">바디 프로필 찍기2</div>
+        <div class="bucket img2 center">바디 프로필 찍기3</div>
+        <div class="bucket img1 center">바디 프로필 찍기4</div>
+        <div class="bucket img1 center">바디 프로필 찍기5</div>
+        <div class="bucket img2 center">바디 프로필 찍기6</div>
+    </div>
+</body>
+</html>
